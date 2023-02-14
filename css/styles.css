@@ -171,7 +171,7 @@ text-decoration: none;
     padding: 0;
   }
   .header-contacts{
-    margin: 0 auto;
+    margin-left: auto;
   }
   .header-container{ 
     display: flex;
@@ -389,11 +389,12 @@ border-color: transparent;
 /*portfplio project list*/
 .project-title{
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color-title);   
   text-decoration: none;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 .project-description{
   font-size: 16px;
@@ -429,7 +430,7 @@ padding-bottom: 8px;
   gap: 24px;
   margin-bottom: 72px;
   justify-content: center;
-  gap: 24px 48px;
+ 
 }
 .card-container{
   display: flex;
